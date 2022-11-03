@@ -9,6 +9,15 @@ font-weight:bold;
 color:#FFF;
 border:black 1px solid
 `
+const Plove= styled.p`
+background-color: #ff0000;
+padding:1rem;
+margin-top:1rem;
+text-align:center;
+font-weight:bold;
+color:#FFF;
+border:black 1px solid
+`
 const ContainerResult = styled.div`
 position:relative;
 `
@@ -25,6 +34,7 @@ function Result({quotation}) {
                 :(
                     <ContainerResult>
                     <Paragraph>Quotation: ${quotation}</Paragraph>
+                    <Plove>PD: ❤Te amo bb❤ exitos</Plove>
                     </ContainerResult>
                     
                 )
