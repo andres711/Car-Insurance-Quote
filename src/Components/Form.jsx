@@ -30,8 +30,8 @@ const Input = styled.input`
 `;
 const Button = styled.button`
   background-color: #031448;
-  width: 80%;
-  margin-left:20%;
+  width: 100%;
+  /* margin-left:20%; */
   font-size: 1rem;
   padding: 0.7rem;
   color: #fff;
